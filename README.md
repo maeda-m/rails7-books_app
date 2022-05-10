@@ -24,14 +24,33 @@ Webアプリの構成要素を学ぶためのメモアプリです。
 
 ## 実行方法
 
+### Railsアプリ
+
 1. 本リポジトリを `git clone` してください
 2. 次のコマンドでコンテナを起動してください
 ```
   $ cd rails7-books_app
   $ docker-compose up
 ```
-3. ブラウザで http://localhost:9292/ にアクセスしてください
+3. ブラウザで http://localhost:3000/ にアクセスしてください
 4. 終了する場合は `Ctrl + C` でコンテナを終了してください
+
+### Railsコンソール
+
+
+1. 次のコマンドでコンテナを起動してください
+```
+  $ cd rails7-books_app
+  $ docker-compose up -d
+  $ docker-compose exec rails bash
+  # rails console
+```
+2. 次のコマンドでコンテナを終了してください
+```
+  > exit
+  # exit
+  $ docker-compose down
+```
 
 ## テスト方法
 
