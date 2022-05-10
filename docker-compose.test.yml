@@ -1,0 +1,3 @@
+services:
+  rails:
+    command: "rake test"

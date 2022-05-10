@@ -54,7 +54,10 @@ Webアプリの構成要素を学ぶためのメモアプリです。
 
 ## テスト方法
 
-TODO
+```
+$ cd rails7-books_app
+$ docker-compose -f docker-compose.yml -f docker-compose.test.yml up --abort-on-container-exit
+```
 
 ## Linter
 
