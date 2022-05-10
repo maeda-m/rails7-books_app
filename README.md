@@ -9,7 +9,7 @@ Webアプリの構成要素を学ぶためのメモアプリです。
 |Docker Engine|20.10.12|
 |Docker Compose|1.29.2|
 |Ruby|3.1.2|
-|Rails|6.1.6|
+|Rails|7.0.3|
 |Puma|5.6.4|
 |SQLite 3|3.34|
 
