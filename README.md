@@ -1,6 +1,8 @@
-# NOTE×NOTE
+# Books App
 
-Webアプリの構成要素を学ぶためのメモアプリです。
+## スクリーンショット
+
+[![Railsの教科書](https://user-images.githubusercontent.com/943541/167558162-a5e9b17b-dc75-44ee-a500-a808f91406d5.png)](https://tatsu-zine.com/books/rails-textbook)
 
 ## 開発環境
 
